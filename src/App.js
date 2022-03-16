@@ -3,12 +3,13 @@ import "./App.css";
 import Profile from "./profile/profile";
 function App() {
 
-  const handleName = (name) => alert(`this is ${name} speaking`);
+  const handleName =
+  (name)=> alert(`this is ${name} speaking`)
   const data = {
     fullName: "Walid Sabri Sabri Walid",
     bio: "i am developper.\ni develop web apps.\nmy developper skills are developping.",
     profession: "not working at the moment",
-    handleName,
+    handleName
   };
   const imgUrl = "https://memegenerator.net/img/instances/85240859.jpg";
   return (

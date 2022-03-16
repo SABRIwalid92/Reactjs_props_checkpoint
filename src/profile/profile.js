@@ -12,7 +12,7 @@ function Profile(props) {
       <h3 style={{}}>though, {data.profession}</h3>
       <img src={props.children} />
       <br />
-      <button onClick={data.handleName(data.fullName)}>Who is this</button>
+      <button onClick={()=>data.handleName(data.fullName)}>Who is this</button>
     </div>
   );
   
